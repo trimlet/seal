@@ -16,10 +16,17 @@ another, once, in a small window driven only by the keyboard.
 The crypto uses standard pieces (X25519, Argon2id, HKDF, XChaCha20-Poly1305) and has not been reviewed
 by an expert yet.
 
+## Download
+
+The app for **macOS** (Mac with Apple chip: M1 and later) and **Windows** is on the
+[Releases](https://github.com/trimlet/seal/releases) page. It is a beta (0.x), and not signed yet: the first
+time, macOS asks to confirm (right click on the app → Open), Windows shows SmartScreen (More info →
+Run anyway).
+
 ## Build
 
-Written in Go with [Fyne](https://fyne.io), for macOS and Windows. Ready-made downloads are not
-published yet. To build it, with Go installed (and on a Mac the Xcode command line tools):
+Written in Go with [Fyne](https://fyne.io). To build it, with Go installed (and on a Mac the Xcode
+command line tools):
 
 ```
 go run fyne.io/tools/cmd/fyne@v1.7.3 package --release
