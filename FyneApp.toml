@@ -2,5 +2,5 @@
 Icon = "assets/icon.png"
 Name = "Trimlet Seal"
 ID = "local.trimletseal"
-Version = "0.1.0"
-Build = 14
+Version = "0.1.1"
+Build = 16
